@@ -1,2 +1,0 @@
-# CaosNewsFinal
-Entrega proyecto semestral
