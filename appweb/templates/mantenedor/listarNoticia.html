@@ -59,7 +59,18 @@
           SIN INFORMACION
           {% endif %}
         </td>
-        <td>{{l.motivo}}</td>
+        
+        
+        <td>
+          {% if l.motivo%}
+          {{l.motivo}}
+          {% else %}
+          <p>SIN INFORMACION</p>
+          {% endif %}
+        </td>
+        
+        
+        
           <td>
             
             {% if l.estado == 0 %}
